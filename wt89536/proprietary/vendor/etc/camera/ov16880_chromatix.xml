@@ -79,65 +79,65 @@ special_mode_mask values:
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
     <ChromatixName special_mode_mask="0">
-      <ISPCommon>s5k5e8_ofilm_common</ISPCommon>
-      <PostProc>s5k5e8_ofilm_postproc</PostProc>
+      <ISPCommon>ov16880_common</ISPCommon>
+      <PostProc>ov16880_postproc</PostProc>
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="0">
-      <ISPPreview>s5k5e8_ofilm_snapshot</ISPPreview>
-      <ISPSnapshot>s5k5e8_ofilm_snapshot</ISPSnapshot>
-      <ISPVideo>s5k5e8_ofilm_snapshot</ISPVideo>
-      <CPPPreview>s5k5e8_ofilm_cpp_preview</CPPPreview>
-      <CPPSnapshot>s5k5e8_ofilm_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>s5k5e8_ofilm_cpp_video</CPPVideo>
-      <CPPLiveshot>s5k5e8_ofilm_cpp_liveshot</CPPLiveshot>
-      <A3Preview>s5k5e8_ofilm_zsl_preview_3a</A3Preview>
-      <A3Video>s5k5e8_ofilm_zsl_video_3a</A3Video>
+    <ChromatixName sensor_resolution_index="0">
+      <ISPPreview>ov16880_snapshot</ISPPreview>
+      <ISPSnapshot>ov16880_snapshot</ISPSnapshot>
+      <ISPVideo>ov16880_snapshot</ISPVideo>
+      <CPPPreview>ov16880_cpp_preview</CPPPreview>
+      <CPPSnapshot>ov16880_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>ov16880_cpp_video</CPPVideo>
+      <CPPLiveshot>ov16880_cpp_liveshot</CPPLiveshot>
+      <A3Preview>ov16880_zsl_preview_3a</A3Preview>
+      <A3Video>ov16880_default_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
-      <ISPPreview>s5k5e8_ofilm_snapshot</ISPPreview>
-      <ISPSnapshot>s5k5e8_ofilm_snapshot</ISPSnapshot>
-      <ISPVideo>s5k5e8_ofilm_snapshot</ISPVideo>
-      <CPPPreview>s5k5e8_ofilm_cpp_liveshot</CPPPreview>
-      <CPPSnapshot>s5k5e8_ofilm_cpp_liveshot</CPPSnapshot>
-      <CPPVideo>s5k5e8_ofilm_cpp_video</CPPVideo>
-      <CPPLiveshot>s5k5e8_ofilm_cpp_liveshot</CPPLiveshot>
-      <A3Preview>s5k5e8_ofilm_default_preview_3a</A3Preview>
-      <A3Video>s5k5e8_ofilm_default_video_3a</A3Video>
+    <ChromatixName sensor_resolution_index="1">
+      <ISPPreview>ov16880_snapshot</ISPPreview>
+      <ISPSnapshot>ov16880_snapshot</ISPSnapshot>
+      <ISPVideo>ov16880_snapshot</ISPVideo>
+      <CPPPreview>ov16880_cpp_preview</CPPPreview>
+      <CPPSnapshot>ov16880_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>ov16880_cpp_video</CPPVideo>
+      <CPPLiveshot>ov16880_cpp_liveshot</CPPLiveshot>
+      <A3Preview>ov16880_default_preview_3a</A3Preview>
+      <A3Video>ov16880_default_preview_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="2" special_mode_mask="0">
-      <ISPPreview>s5k5e8_ofilm_hfr_60</ISPPreview>
-      <ISPSnapshot>s5k5e8_ofilm_hfr_60</ISPSnapshot>
-      <ISPVideo>s5k5e8_ofilm_hfr_60</ISPVideo>
-      <CPPPreview>s5k5e8_ofilm_cpp_hfr_60</CPPPreview>
-      <CPPSnapshot>s5k5e8_ofilm_cpp_hfr_60</CPPSnapshot>
-      <CPPVideo>s5k5e8_ofilm_cpp_hfr_60</CPPVideo>
-      <CPPLiveshot>s5k5e8_ofilm_cpp_hfr_60</CPPLiveshot>
-      <A3Preview>s5k5e8_ofilm_hfr_60_3a</A3Preview>
-      <A3Video>s5k5e8_ofilm_hfr_60_3a</A3Video>
+    <ChromatixName sensor_resolution_index="2">
+      <ISPPreview>ov16880_hfr_60</ISPPreview>
+      <ISPSnapshot>ov16880_hfr_60</ISPSnapshot>
+      <ISPVideo>ov16880_hfr_60</ISPVideo>
+      <CPPPreview>ov16880_cpp_hfr_60</CPPPreview>
+      <CPPSnapshot>ov16880_cpp_hfr_60</CPPSnapshot>
+      <CPPVideo>ov16880_cpp_hfr_60</CPPVideo>
+      <CPPLiveshot>ov16880_cpp_hfr_60</CPPLiveshot>
+      <A3Preview>ov16880_hfr_60_3a</A3Preview>
+      <A3Video>ov16880_hfr_60_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="3" special_mode_mask="0">
-      <ISPPreview>s5k5e8_ofilm_hfr_90</ISPPreview>
-      <ISPSnapshot>s5k5e8_ofilm_hfr_90</ISPSnapshot>
-      <ISPVideo>s5k5e8_ofilm_hfr_90</ISPVideo>
-      <CPPPreview>s5k5e8_ofilm_cpp_hfr_90</CPPPreview>
-      <CPPSnapshot>s5k5e8_ofilm_cpp_hfr_90</CPPSnapshot>
-      <CPPVideo>s5k5e8_ofilm_cpp_hfr_90</CPPVideo>
-      <CPPLiveshot>s5k5e8_ofilm_cpp_hfr_90</CPPLiveshot>
-      <A3Preview>s5k5e8_ofilm_hfr_90_3a</A3Preview>
-      <A3Video>s5k5e8_ofilm_hfr_90_3a</A3Video>
+    <ChromatixName sensor_resolution_index="3">
+      <ISPPreview>ov16880_hfr_90</ISPPreview>
+      <ISPSnapshot>ov16880_hfr_90</ISPSnapshot>
+      <ISPVideo>ov16880_hfr_90</ISPVideo>
+      <CPPPreview>ov16880_cpp_hfr_90</CPPPreview>
+      <CPPSnapshot>ov16880_cpp_hfr_90</CPPSnapshot>
+      <CPPVideo>ov16880_cpp_hfr_90</CPPVideo>
+      <CPPLiveshot>ov16880_cpp_hfr_90</CPPLiveshot>
+      <A3Preview>ov16880_hfr_90_3a</A3Preview>
+      <A3Video>ov16880_hfr_90_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
-      <ISPPreview>s5k5e8_ofilm_hfr_120</ISPPreview>
-      <ISPSnapshot>s5k5e8_ofilm_hfr_120</ISPSnapshot>
-      <ISPVideo>s5k5e8_ofilm_hfr_120</ISPVideo>
-      <CPPPreview>s5k5e8_ofilm_cpp_hfr_120</CPPPreview>
-      <CPPSnapshot>s5k5e8_ofilm_cpp_hfr_120</CPPSnapshot>
-      <CPPVideo>s5k5e8_ofilm_cpp_hfr_120</CPPVideo>
-      <CPPLiveshot>s5k5e8_ofilm_cpp_hfr_120</CPPLiveshot>
-      <A3Preview>s5k5e8_ofilm_hfr_120_3a</A3Preview>
-      <A3Video>s5k5e8_ofilm_hfr_120_3a</A3Video>
+    <ChromatixName sensor_resolution_index="4">
+      <ISPPreview>ov16880_hfr_120</ISPPreview>
+      <ISPSnapshot>ov16880_hfr_120</ISPSnapshot>
+      <ISPVideo>ov16880_hfr_120</ISPVideo>
+      <CPPPreview>ov16880_cpp_hfr_120</CPPPreview>
+      <CPPSnapshot>ov16880_cpp_hfr_120</CPPSnapshot>
+      <CPPVideo>ov16880_cpp_hfr_120</CPPVideo>
+      <CPPLiveshot>ov16880_cpp_hfr_120</CPPLiveshot>
+      <A3Preview>ov16880_hfr_120_3a</A3Preview>
+      <A3Video>ov16880_hfr_120_3a</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>

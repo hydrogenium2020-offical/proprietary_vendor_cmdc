@@ -1,5 +1,5 @@
 <!--
-  Copyright (c) 2016 Qualcomm Technologies, Inc.
+  Copyright (c) 2015 Qualcomm Technologies, Inc.
   All Rights Reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -79,61 +79,59 @@ special_mode_mask values:
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
     <ChromatixName>
-      <ISPCommon>imx258_mono_bear_common</ISPCommon>
-      <PostProc>imx258_mono_bear_postproc</PostProc>
-      <CPPPreview>imx258_mono_bear_cpp_preview</CPPPreview>
-      <CPPSnapshot>imx258_mono_bear_cpp_snapshot</CPPSnapshot>
-      <CPPLiveshot>imx258_mono_bear_cpp_liveshot</CPPLiveshot>
+      <ISPCommon>ov8856_common</ISPCommon>
+      <PostProc>ov8856_postproc</PostProc>
+      <CPPPreview>ov8856_cpp_preview</CPPPreview>
+      <CPPSnapshot>ov8856_cpp_snapshot</CPPSnapshot>
+      <CPPLiveshot>ov8856_cpp_liveshot</CPPLiveshot>
+    </ChromatixName>
+    <ChromatixName special_mode_mask="ZOOM_UPSCALE">
+      <CPPSnapshot>ov8856_cpp_us_chromatix</CPPSnapshot>
+    </ChromatixName>
+    <ChromatixName special_mode_mask="ZOOM_DOWNSCALE">
+      <CPPSnapshot>ov8856_cpp_ds_chromatix</CPPSnapshot>
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
     <ChromatixName sensor_resolution_index="0">
-      <ISPPreview>imx258_mono_bear_snapshot</ISPPreview>
-      <ISPSnapshot>imx258_mono_bear_snapshot</ISPSnapshot>
-      <ISPVideo>imx258_mono_bear_default_video</ISPVideo>
-      <CPPVideo>imx258_mono_bear_cpp_video</CPPVideo>
-      <A3Preview>imx258_mono_bear_zsl_preview_lc898217xc</A3Preview>
-      <A3Video>imx258_mono_bear_zsl_video_lc898217xc</A3Video>
+      <ISPPreview>ov8856_snapshot</ISPPreview>
+      <ISPSnapshot>ov8856_snapshot</ISPSnapshot>
+      <ISPVideo>ov8856_video_full</ISPVideo>
+      <CPPVideo>ov8856_cpp_video_full</CPPVideo>
+      <A3Preview>ov8856_zsl_preview</A3Preview>
+      <A3Video>ov8856_zsl_video</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1">
-      <ISPPreview>imx258_mono_bear_preview</ISPPreview>
-      <ISPSnapshot>imx258_mono_bear_preview</ISPSnapshot>
-      <ISPVideo>imx258_mono_bear_preview</ISPVideo>
-      <CPPVideo>imx258_mono_bear_cpp_video</CPPVideo>
-      <A3Preview>imx258_mono_bear_4k_preview_lc898217xc</A3Preview>
-      <A3Video>imx258_mono_bear_4k_video_lc898217xc</A3Video>
+      <ISPPreview>ov8856_preview</ISPPreview>
+      <ISPSnapshot>ov8856_snapshot</ISPSnapshot>
+      <ISPVideo>ov8856_default_video</ISPVideo>
+      <CPPVideo>ov8856_cpp_video</CPPVideo>
+      <A3Preview>ov8856_default_preview_dw9714</A3Preview>
+      <A3Video>ov8856_default_video_dw9714</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="2">
-      <ISPPreview>imx258_mono_bear_preview</ISPPreview>
-      <ISPSnapshot>imx258_mono_bear_preview</ISPSnapshot>
-      <ISPVideo>imx258_mono_bear_preview</ISPVideo>
-      <CPPVideo>imx258_mono_bear_cpp_video</CPPVideo>
-      <A3Preview>imx258_mono_bear_default_preview_lc898217xc</A3Preview>
-      <A3Video>imx258_mono_bear_default_video_lc898217xc</A3Video>
+      <ISPPreview>ov8856_hfr_60</ISPPreview>
+      <ISPSnapshot>ov8856_hfr_60</ISPSnapshot>
+      <ISPVideo>ov8856_hfr_60</ISPVideo>
+      <CPPVideo>ov8856_cpp_hfr_60</CPPVideo>
+      <A3Preview>ov8856_hfr_60_dw9714</A3Preview>
+      <A3Video>ov8856_hfr_60_dw9714</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="3">
-      <ISPPreview>imx258_mono_bear_hfr_60</ISPPreview>
-      <ISPSnapshot>imx258_mono_bear_hfr_60</ISPSnapshot>
-      <ISPVideo>imx258_mono_bear_hfr_60</ISPVideo>
-      <CPPVideo>imx258_mono_bear_cpp_hfr_60</CPPVideo>
-      <A3Preview>imx258_mono_bear_hfr_60_lc898217xc</A3Preview>
-      <A3Video>imx258_mono_bear_hfr_60_lc898217xc</A3Video>
+      <ISPPreview>ov8856_hfr_90</ISPPreview>
+      <ISPSnapshot>ov8856_hfr_90</ISPSnapshot>
+      <ISPVideo>ov8856_hfr_90</ISPVideo>
+      <CPPVideo>ov8856_cpp_hfr_90</CPPVideo>
+      <A3Preview>ov8856_hfr_90_dw9714</A3Preview>
+      <A3Video>ov8856_hfr_90_dw9714</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="4">
-      <ISPPreview>imx258_mono_bear_hfr_90</ISPPreview>
-      <ISPSnapshot>imx258_mono_bear_hfr_90</ISPSnapshot>
-      <ISPVideo>imx258_mono_bear_hfr_90</ISPVideo>
-      <CPPVideo>imx258_mono_bear_cpp_hfr_90</CPPVideo>
-      <A3Preview>imx258_mono_bear_hfr_90_lc898217xc</A3Preview>
-      <A3Video>imx258_mono_bear_hfr_90_lc898217xc</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="5">
-      <ISPPreview>imx258_mono_bear_hfr_120</ISPPreview>
-      <ISPSnapshot>imx258_mono_bear_hfr_120</ISPSnapshot>
-      <ISPVideo>imx258_mono_bear_hfr_120</ISPVideo>
-      <CPPVideo>imx258_mono_bear_cpp_hfr_120</CPPVideo>
-      <A3Preview>imx258_mono_bear_hfr_120_lc898217xc</A3Preview>
-      <A3Video>imx258_mono_bear_hfr_120_lc898217xc</A3Video>
+      <ISPPreview>ov8856_hfr_120</ISPPreview>
+      <ISPSnapshot>ov8856_hfr_120</ISPSnapshot>
+      <ISPVideo>ov8856_hfr_120</ISPVideo>
+      <CPPVideo>ov8856_cpp_hfr_120</CPPVideo>
+      <A3Preview>ov8856_hfr_120_dw9714</A3Preview>
+      <A3Video>ov8856_hfr_120_dw9714</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>

@@ -1,5 +1,5 @@
 <!--
-  Copyright (c) 2015 Qualcomm Technologies, Inc.
+  Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
   All Rights Reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -84,26 +84,101 @@ LensInfo : Information of the lens present in the module.
 -->
 
 <CameraConfigurationRoot>
+<CameraModuleConfig>
+	<CameraId>0</CameraId>
+	<SensorName>s5k3p3</SensorName>
+	<FlashName>pmic</FlashName>
+	<EepromName>s5k3p3</EepromName>
+	<ActuatorName>bu64297</ActuatorName>
+	<ChromatixName>s5k3p3_f3l8yam_chromatix</ChromatixName>
+	<ModesSupported>1</ModesSupported>
+	<Position>BACK</Position>
+	<MountAngle>90</MountAngle>
+	<CSIInfo>
+	  <CSIDCore>0</CSIDCore>
+	  <LaneMask>0x1F</LaneMask>
+	  <LaneAssign>0x4320</LaneAssign>
+	  <ComboMode>0</ComboMode>
+	</CSIInfo>
+	<LensInfo>
+	  <FocalLength>3.68</FocalLength>
+	  <FNumber>2.0</FNumber>
+	  <TotalFocusDistance>1.2</TotalFocusDistance>
+	  <HorizontalViewAngle>45.6</HorizontalViewAngle>
+	  <VerticalViewAngle>61.8</VerticalViewAngle>
+	  <MinFocusDistance>0.1</MinFocusDistance>
+	</LensInfo>
+  </CameraModuleConfig>
   <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>csidtg</SensorName>
-    <ChromatixName>csidtg_chromatix</ChromatixName>
+	<CameraId>0</CameraId>
+	<SensorName>ov16880</SensorName>
+	<FlashName>pmic</FlashName>
+	<EepromName>ov16880</EepromName>
+	<ActuatorName>bu64297gwz</ActuatorName>
+	<ChromatixName>ov16880_chromatix</ChromatixName>
+	<ModesSupported>1</ModesSupported>
+	<Position>BACK</Position>
+	<MountAngle>90</MountAngle>
+	<CSIInfo>
+	  <CSIDCore>0</CSIDCore>
+	  <LaneMask>0x1F</LaneMask>
+	  <LaneAssign>0x4320</LaneAssign>
+	  <ComboMode>0</ComboMode>
+	</CSIInfo>
+	<LensInfo>
+	  <FocalLength>3.68</FocalLength>
+	  <FNumber>2.0</FNumber>
+	  <TotalFocusDistance>1.2</TotalFocusDistance>
+	  <HorizontalViewAngle>45.6</HorizontalViewAngle>
+	  <VerticalViewAngle>61.8</VerticalViewAngle>
+	  <MinFocusDistance>0.1</MinFocusDistance>
+	</LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>ov8856</SensorName>
+    <EepromName>ov8856</EepromName>
+    <ChromatixName>ov8856_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>360</MountAngle>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
     <CSIInfo>
-      <CSIDCore>0</CSIDCore>
+      <CSIDCore>2</CSIDCore>
       <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.82</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.2</TotalFocusDistance>
-      <HorizontalViewAngle>69.6</HorizontalViewAngle>
-      <VerticalViewAngle>43.0</VerticalViewAngle>
+      <FocalLength>3.75</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.97</TotalFocusDistance>
+      <HorizontalViewAngle>62.7</HorizontalViewAngle>
+      <VerticalViewAngle>49.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId> 
+    <SensorName>s5k4h8</SensorName>
+    <EepromName>s5k4h8</EepromName>
+    <ChromatixName>s5k4h8_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.75</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.97</TotalFocusDistance>
+      <HorizontalViewAngle>62.7</HorizontalViewAngle>
+      <VerticalViewAngle>49.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>
+
